@@ -34,17 +34,14 @@ p, h2 {
     font-family: 'Source Serif Pro', serif;
 }
 
-
-
-
-.nav, nav {
+nav {
   display: inline;
   list-style: none;
   margin: 0 0 2% 0;
   padding: 0 0;
 }
 
-.nav li, nav li {
+nav li {
   display: inline;
   margin-right: 1em;
 }
@@ -54,7 +51,6 @@ a {
     text-decoration: none;
     color: #6c0ae8;
 }
-
 
 a:hover {
     color: #6c0ae8;
@@ -87,21 +83,20 @@ header {
     
 }
 
-
-.tagline, .about, .contact {
+.tagline, .contact {
     background-color: #ebebeb;
     padding: 2% 6%;
     color: #272128;
 }
 
-.skills, .testskills {
+.skills {
     background-color: #531047;
     padding: 2% 6%;
     color: #ebebeb;
 
 }
 
-.skills li, .testskills li {
+.skills li {
     margin-left: 15px;
 }
 
